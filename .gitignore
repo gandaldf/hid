@@ -1,0 +1,46 @@
+# Binaries for programs and plugins
+*.o
+*.a
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*-meta.json
+*.txt
+*.crt
+*.key
+.DS_Store
+
+# Test binary, build with `go test -c`
+*.test
+*.prof
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Special folders
+gitignore/
+_obj
+_test
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
